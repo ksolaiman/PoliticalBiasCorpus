@@ -1,0 +1,50 @@
+Left vs Right:
+
+# Doc-1
+Title: A Lot Of Media Outlets Botched The CBO's Obamacare Report
+Outlet Bias: Left
+Mturk Bias: Right
+DocId: e009eceb-8760-4619-96e3-ec962682ef8e
+
+# Doc-2
+Title: Celebrities Slam Trump After He Condemns Hate Groups
+Outlet Bias: Lean Right
+Mturk Bias: Left
+DocId: 4fc33e1d-cab8-42b2-8edd-1550e1ce62c5
+
+# Doc-3
+Title: Lewandowski Claims Captain Khan Would Still Be Alive If Trump Had Been President
+Outlet Bias: Left
+Mturk Bias: Right
+DocId: f7f48882-42c6-4c4f-8b34-6d6f0c442084
+
+# Doc-4
+Title: BROKEN PROMISE: Trump, GOP Congress Give Planned Parenthood $500 Million In Taxpayer Funds
+Outlet Bias: Lean Right
+Mturk Bias: Left
+DocId: ad932c47-548c-44d1-801e-c651f5323046
+-------------------------------------------------------
+
+Left/Right(outlet) vs Center(workers):
+
+# Doc-1
+Title: Las Vegas shooting: At least 59 dead in massacre Trump calls 'act of pure evil'
+Outlet Bias: Lean Right
+Outlet: Fox News
+Mturk Bias: Center
+DocId: 22db9529-bbc3-46b1-83ad-522571b4d065
+
+
+# Doc-2
+Title: The Deficit Keeps Falling, So Why Is Congress Leaving The Unemployed In The Cold?
+Outlet Bias: Left
+Outlet: ThinkProgress
+Mturk Bias: Center
+DocId: 6684a164-fc0f-432c-a65f-fc60b5811e2e
+
+# Doc-3
+Title: Trump uses Twitter to promote leaked intelligence on North Korea
+Outlet Bias: Left
+Outlet: MSNBC
+Mturk Bias: Center
+DocId: 265b3116-4c12-4a9b-9760-e9438877a60c
