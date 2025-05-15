@@ -26,3 +26,17 @@ To support consistent annotations and bias evaluation, we include reference mate
 
 These were used during annotation and validation as a reasoning aid - not to enforce any labeling decision. Annotators may have referred to them to calibrate or justify their selections.
 
+
+
+## MTurk Annotation Dataset
+
+This folder contains results from a Mechanical Turk annotation task where 300 political news articles were each labeled by two workers for perceived political bias.
+
+### Files
+
+- `mturk_annotation_raw.csv`: Raw annotations with no postprocessing or interpretation. Each document appears twice, once per annotator. Includes document ID, article snippets, full text, annotator highlights, reason, and scalar Left/Right bias ratings.
+- `mturk_annotation_tagged.csv`: Annotator responses, plus additional columns added by the authors indicating:
+  - Whether the two annotators agreed.
+  - Whether the agreed label matches or conflicts with the original news outlet's known political bias.
+
+This release supports studies of annotator agreement, human-perceived bias, and alignment with known source bias.
