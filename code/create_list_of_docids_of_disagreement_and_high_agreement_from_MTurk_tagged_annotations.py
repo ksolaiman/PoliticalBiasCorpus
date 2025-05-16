@@ -31,7 +31,7 @@ selected_docs_disagreement = []
 # Identify which one's the workers agree on
     # Identify which one's out of those agree with outlet
     # Identify which one's seem 'Centered' to readers but are Left/Right from Outlet Label
-# Identify which one's the workers do not agree on
+# Identify which one's the workers do not agree on (L vs R)
 
 with open(annotated_worker_response, newline='', encoding='ISO-8859-1') as f:
     reader = csv.DictReader(f)
