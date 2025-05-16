@@ -26,6 +26,8 @@ selected_docs = []
 selected_docs_center = []
 selected_docs_wrong = []
 selected_docs_disagreement = []
+workers_disagreement = []
+workers_disagreement_with_one_center = []
 
 # Purpose:
 # Identify which one's the workers agree on
@@ -37,71 +39,90 @@ with open(annotated_worker_response, newline='', encoding='ISO-8859-1') as f:
     reader = csv.DictReader(f)
     # print(reader.fieldnames)  # This will print all column headers
 
+    firstWorkerLabel = None
     for row in reader:
+        workerLabel = row['Worker_label']
         goldLabel = row['outletLabel']
         workerLabelorNotAgreeing = row['agreeornot']            # L,R,C or X (if not agreeing)
         docid = row["docid"]
-        
-        # both goldLabel and workerLabel appears on same row, otherwise it's blank for both
+
         if not goldLabel.strip() or not workerLabelorNotAgreeing.strip():
+            firstWorkerLabel = workerLabel
             continue
         
-        ### 🟢 Workers agreed and matched outlet bias
-        # if item[43] == "Correct":
-            # selected_docs.append(item[44])
-        elif goldLabel == workerLabelorNotAgreeing:
-            selected_docs.append(docid)
-            matched_data.append([
-                docid,
-                row['Input.title'],
-                row['Input.event'],
-                row['Input.fullDoc'],
-                workerLabelorNotAgreeing,
-                goldLabel
-            ])
+        # both goldLabel and workerLabel appears on same row, otherwise it's blank for both
+        elif goldLabel.strip() or workerLabelorNotAgreeing.strip():
+            secondWorkerLabel = workerLabel
+            if firstWorkerLabel != secondWorkerLabel:
+                if firstWorkerLabel == 'Center' or secondWorkerLabel == 'Center':
+                    workers_disagreement_with_one_center.append(docid)
+                workers_disagreement.append(docid)
+            # continue
+        
+            ### 🟢 Workers agreed and matched outlet bias
+            # if item[43] == "Correct":
+                # selected_docs.append(item[44])
+            if goldLabel == workerLabelorNotAgreeing:
+                selected_docs.append(docid)
+                matched_data.append([
+                    docid,
+                    row['Input.title'],
+                    row['Input.event'],
+                    row['Input.fullDoc'],
+                    firstWorkerLabel,
+                    secondWorkerLabel,
+                    workerLabelorNotAgreeing,
+                    goldLabel
+                ])
 
-            
-        ### 🟡 Workers agreed, but labeled article as Center, outlet was Left/Right
-        # elif item[43] == "NotByCenter":
-        #     selected_docs_center.append(item[44])
-        elif goldLabel != 'Center' and  workerLabelorNotAgreeing == 'Center':
-            selected_docs_center.append(docid)
-            worker_tagged_center_data.append([
-                docid,
-                row['Input.title'],
-                row['Input.event'],
-                row['Input.fullDoc'],
-                workerLabelorNotAgreeing,
-                goldLabel
-            ])
+                
+            ### 🟡 Workers agreed, but labeled article as Center, outlet was Left/Right
+            # elif item[43] == "NotByCenter":
+            #     selected_docs_center.append(item[44])
+            elif goldLabel != 'Center' and  workerLabelorNotAgreeing == 'Center':
+                selected_docs_center.append(docid)
+                worker_tagged_center_data.append([
+                    docid,
+                    row['Input.title'],
+                    row['Input.event'],
+                    row['Input.fullDoc'],
+                    firstWorkerLabel,
+                    secondWorkerLabel,
+                    workerLabelorNotAgreeing,
+                    goldLabel
+                ])
 
-        ### ❌ Workers agreed, but label conflicted with outlet bias
-        # else:
-        #     selected_docs_wrong.append(item[44])
-        elif  workerLabelorNotAgreeing != 'X' and goldLabel != workerLabelorNotAgreeing:
-            selected_docs_wrong.append(docid)
-            workers_agreed_conflicted_with_outlet_data.append([
-                docid,
-                row['Input.title'],
-                row['Input.event'],
-                row['Input.fullDoc'],
-                workerLabelorNotAgreeing,
-                goldLabel
-            ])
+            ### ❌ Workers agreed, but label conflicted with outlet bias
+            # else:
+            #     selected_docs_wrong.append(item[44])
+            elif  workerLabelorNotAgreeing != 'X' and goldLabel != workerLabelorNotAgreeing:
+                selected_docs_wrong.append(docid)
+                workers_agreed_conflicted_with_outlet_data.append([
+                    docid,
+                    row['Input.title'],
+                    row['Input.event'],
+                    row['Input.fullDoc'],
+                    firstWorkerLabel,
+                    secondWorkerLabel,
+                    workerLabelorNotAgreeing,
+                    goldLabel
+                ])
 
 
-        ### ❌ ❌  workers disagreeed
-        elif  workerLabelorNotAgreeing == 'X':
-            selected_docs_disagreement.append(docid)
+            ### ❌ ❌  workers disagreeed
+            elif  workerLabelorNotAgreeing == 'X':
+                selected_docs_disagreement.append(docid)
             
 print(len(selected_docs_disagreement))
+print(len(workers_disagreement))
+print(len(workers_disagreement_with_one_center))
 
 
 # Save docid lists to files
 def write_list_to_csv(path, docids):
     with open(path, 'w', newline='') as fout:
         writer = csv.writer(fout)
-        writer.writerow(['docid', 'title', 'event', 'full_text', 'human_label', 'outlet_bias'])
+        writer.writerow(['docid', 'title', 'event', 'full_text', 'worker_1_label', 'worker_2_label', 'human_label', 'outlet_bias'])
         for docid in docids:
             writer.writerow(docid)
 
