@@ -13,12 +13,13 @@ os.makedirs(output_dir, exist_ok=True)
 matched_file = os.path.join(output_dir, 'gold_docs_workers_agreed_and_matched_outlet.csv')
 center_file = os.path.join(output_dir, 'gold_docs_workers_agreed_labeled_center_conflicted_with_outlet_lr.csv')
 conflict_file = os.path.join(output_dir, 'gold_docs_workers_agreed_conflicted_with_outlet.csv')
-disagree_file = os.path.join(output_dir, 'gold_docs_workers_disagreed.csv')
+disagree_file = os.path.join('../annotations_raw/','workers_disagreed.csv')
 
 # list to save full information on the documents
 matched_data = []
 workers_agreed_conflicted_with_outlet_data = []
 worker_tagged_center_data = []
+workers_disagreed_data = []
 
 # Lists to store docids
 headers = ['docid', 'outletLabel']
@@ -112,6 +113,16 @@ with open(annotated_worker_response, newline='', encoding='ISO-8859-1') as f:
             ### ❌ ❌  workers disagreeed
             elif  workerLabelorNotAgreeing == 'X':
                 selected_docs_disagreement.append(docid)
+                workers_disagreed_data.append([
+                    docid,
+                    row['Input.title'],
+                    row['Input.event'],
+                    row['Input.fullDoc'],
+                    firstWorkerLabel,
+                    secondWorkerLabel,
+                    workerLabelorNotAgreeing,               # X
+                    goldLabel
+                ])
             
 print(len(selected_docs_disagreement))
 print(len(workers_disagreement))
@@ -130,10 +141,10 @@ def write_list_to_csv(path, docids):
 write_list_to_csv(matched_file, matched_data)
 write_list_to_csv(center_file, worker_tagged_center_data)
 write_list_to_csv(conflict_file, workers_agreed_conflicted_with_outlet_data)
+write_list_to_csv(disagree_file, workers_disagreed_data)              # ehh, saved it, but not in gold/ repo.
 
-# write_list_to_csv(disagree_file, selected_docs_disagreement)              # no need to save the worker conflicted one
 
-# below code was used to just save the doc ids of different types
+# below code previously, was used to just save the doc ids of different types
 # with open('correct_docId.txt', 'w') as f:
 #     for item in selected_docs:
 #         f.write("%s\n" % item)
