@@ -9,7 +9,7 @@ We selected **only those documents** where **two independent crowd annotators ag
 
 ### `gold_docs_workers_agreed_and_matched_outlet.csv`
 - **Count**: 144 articles  
-- **Description**: Articles where both annotators agreed on the bias label, and this label matches the known political leaning of the news outlet.
+- **Description**: Articles where both annotators agreed on the bias label (13 articles), or one selected Center and the other selected partisan (131 articles). In the later case, we choose the partisan label as final human label. The final human label matches the known political leaning of the news outlet.
 - **Use**: High-confidence training and evaluation set for bias detection. 
 - **Human-label**: `L`, `R` (left, right)
 
@@ -43,7 +43,9 @@ Each CSV contains the following columns:
 - `title`: Headline or title of the article
 - `event`: The political topic or event covered
 - `full_text`: Full text or extended excerpt used for annotation
-- `label`: Final perceived bias label agreed upon by annotators (`L`, `R`, or `C`)
+- `worker_1_label`
+- `worker_2_label`
+- `human_label`: Final perceived bias label agreed upon by annotators (`L`, `R`, or `C`)
 - `outlet_bias`: Known political leaning of the source (`L` or `R`)
 
 ## Notes
