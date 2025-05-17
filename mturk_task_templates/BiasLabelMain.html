@@ -1,0 +1,789 @@
+<!-- ${docid} -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BIAS DETECTION HIT</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script> <!-- this line is key for submitting the response -->
+        <!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries -->
+        <!-- External CSS references -->
+        <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" />
+        <!-- Open internal style sheet -->
+        <style type="text/css">
+            #collapseTrigger {
+            color: #fff;
+            display: block;
+            text-decoration: none;
+            }
+            #submitButton {
+            white-space: normal;
+            }
+            #instructionBody table {
+            font-size: 14px;
+            margin-top: 10px;
+            }
+            #instructionBody table caption {
+            text-align: left;
+            padding: 0 0 5px 0;
+            }
+            #Inputs {
+            display: block;
+            margin-top: 10px;
+            }
+            #Input_Types {
+            display: block;
+            margin-top: 10px;
+            }
+            #element1 {
+            height: 30px;
+            }
+            .content {
+            margin-bottom: 15px;
+            }
+            .radio:first-of-type {
+            margin-top: -5px;
+            }
+            .highlight {
+            background: #f0ad43;
+            }
+            
+        </style>
+        <!-- Close internal style sheet -->
+    </head>
+    <body>
+        <form name='mturk_form' method='post' id='mturk_form' action='https://workersandbox.mturk.com/mturk/externalSubmit'>
+            <input type='hidden' value='' name='assignmentId' id='assignmentId'/>
+            <meta content="width=device-width,initial-scale=1" name="viewport" />
+            <section class="container" id="Bias">
+                <!-- Instructions (collapsible) -->
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="panel panel-primary">
+                            <!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature --><a class="panel-heading" href="javascript:void(0);" id="collapseTrigger"><strong>Bias Analysis Instructions</strong> <span class="collapse-text">(Click to expand)</span> </a>
+                            <div class="panel-body" id="instructionBody">
+                                <p>Given a news article (title, snippets and full article), you have to - </p> 
+                                <ul>
+                                    <li>Pick the most appropriate political slant towards the Republican party</li>
+                                    <li>Pick the most appropriate political slant towards the Democratic party</li>
+                                    <!--<table class="table table-condensed table-striped table-responsive">
+                                            <tbody>
+                                            </tbody>
+                                            <colgroup>
+                                                <col class="col-xs-2 col-md-2" />
+                                                <col class="col-xs-10 col-md-10" />
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>Slant</th>
+                                                    <th>Criteria</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Very Positive</td>
+                                                    <td>Select this if the article contains text that is strongly supportive of the members or principles of Democratic party, or the party itself.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Somewhat Positive</td>
+                                                    <td>Select this if the article contains text that is somewhat supportive of the members or principles of Democratic party, or the party itself.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Neutral</td>
+                                                    <td>Select this if the article does not discuss about the Democratic party. Also select this if the article just presented information about Democratic party impartially as just information/facts.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Somewhat Negative</td>
+                                                    <td>Select this if the article contains text that is somewhat against the members or principles of Democratic party, or the party itself.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Very Negative</td>
+                                                    <td>Select this if the article contains text that is strongly negative about the members or principles of Democratic party, or the party itself.</td>
+                                                </tr>
+                                            </tbody>
+                                    </table>-->
+                                    <li>Select the most appropriate reason for your choice in Q1 and Q2.</li>
+                                    <li>Highlight text in the Title, Snippets or Full article, where the reason is reflected.
+                                    If you mark a <strong>phrase</strong> all occurences of that phrase is marked in the text. You do not have to unmark that. <strong>For marking text, <span class = 'highlight'>just hover your cursor on the text and select the text you want to mark.</span></strong></li>
+                                </ul>
+                                <div class="text-danger">
+                                    <strong>We highly encourage you to read the full article before answering the questions. After clicking the <span class="text-info">View Full Article</span> button, scroll down to see the full article.</strong>
+                                For detecting Bias by Omission you want to know all perspectives of a news, and you can find it in 'Events the news is based On' part. 
+                                    
+                                </div>
+                                <div class="well">
+                                Choose the political slant towards Democratic or Conservative party based on the following criteria:
+                                <table class="table table-condensed table-striped table-responsive">
+                                            <tbody>
+                                            </tbody>
+                                            <colgroup>
+                                                <col class="col-xs-2 col-md-2" />
+                                                <col class="col-xs-10 col-md-10" />
+                                            </colgroup>
+                                            <!-- By explaining the bias scale, the accuracy of the answers may increase. -->
+                                            <tbody>
+                                                <tr>
+                                                    <th>Slant</th>
+                                                    <th>Criteria</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Very Positive</td>
+                                                    <td>Select this if the article contains text that is strongly supportive of the members or principles of <!--Republican--> the said party, or the party itself.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Somewhat Positive</td>
+                                                    <td>Select this if the article contains text that is somewhat supportive of the members or principles of <!--Republican--> the said party, or the party itself.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Neutral</td>
+                                                    <td>Select this if the article does not discuss about the <!--Republican--> the said party. Also select this if the article just presented information about <!--Republican--> the said party impartially as just information/facts.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Somewhat Negative</td>
+                                                    <td>Select this if the article contains text that is somewhat against the members or principles of <!--Republican--> the said party, or the party itself.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Very Negative</td>
+                                                    <td>Select this if the article contains text that is strongly negative about the members or principles of <!--Republican--> the said party, or the party itself.</td>
+                                                </tr>
+                                            </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-12 col-sm-12">
+                                    <button type="button" id="button_good_ex1" class="btn btn-success btn-block">
+                                        <span class="collapse-good-ex-1">Good Example 1</span>
+                                    </button>
+                                   <div id="good_ex1" style="width: 100%; display:none">
+                                    <p>
+                                    Remember that infamous Russian “dossier,” the unverified document that BuzzFeed unceremoniously dumped into the public square earlier this year? You might recall it as making a series of incredibly salacious and completely unproven accusations against the sitting president of the United States. Well, it turns out that it was a piece of partisan opposition research, bought and paid for by the Hillary Clinton campaign and the Democratic National Committee, both of which then denied having anything to do with it after the fact. </p>
+                                    <table class="table table-condensed table-striped table-responsive">
+                                            <tbody>
+                                            </tbody>
+                                            <colgroup>
+                                                <col class="col-12 col-md-3" />
+                                                <col class="col-12 col-md-9" />
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Question</td>
+                                                    <td>Answer</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Slant towards Republican Party</td>
+                                                    <td>Somewhat Positive (Or, Strongly Positive)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Slant towards Deomcratic Party</td>
+                                                    <td>Strongly Negative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Reasons for Choice</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>Author uses strong language (either positive or negative) to describe people or institutions of one side.</li>
+                                                            <li>Author expresses their own opinion to describe one side positively or negatively.</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Highlighted Text</td>
+                                                    <td>Remember that <span class = 'highlight'>infamous Russian “dossier,” the unverified document that BuzzFeed unceremoniously dumped </span> into the public square earlier this year? You might recall it as making a series of <span class = 'highlight'>incredibly salacious and completely unproven accusations against the sitting president of the United States</span>. </td>
+                                                </tr>
+                                            </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                                <div class="col-12 col-sm-12">  
+                                    <button type="button" id="button_good_ex2" class="btn btn-success btn-block">
+                                        <span class="collapse-good-ex-2">Good Example 2</span>
+                                    </button>
+                                   <div id="good_ex2" style="width: 100%; display:none">
+                                    <p>
+                                    "You almost can’t blame Joe Biden for being so unhinged. It must be frustrating to debate when you have a record that is so hard to defend and not a single tangible plan for the second term besides tax hikes," a statement from the Republican National Committee said in drawing attention to notable tweets about Biden's mirth.
+
+Shortly afterward, the party put out a video montage of Biden grinning and laughing.
+
+Former Bush spokesman Ari Fleischer, for example, tweeted, "The contrast between cool Ryan and overbearing Biden really hurts Biden. Biden is too hot - not effective."
+
+But Democrats quickly shot down the criticism, casting it as evidence of Republican desperation.
+
+"Twenty-nine days out and they have been peddling this crap, and they don't even have the guts to put their tax plan out. They deserve to be laughed at," Maryland Gov. Martin O'Malley said. "Biden knew the person he was up against is a very immature person who is not ready for this job."</p>
+                                    <table class="table table-condensed table-striped table-responsive">
+                                            <tbody>
+                                            </tbody>
+                                            <colgroup>
+                                                <col class="col-12 col-md-3" />
+                                                <col class="col-12 col-md-9" />
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Question</td>
+                                                    <td>Answer</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Slant towards Republican Party</td>
+                                                    <td>Somewhat Positive</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Slant towards Deomcratic Party</td>
+                                                    <td>Strongly Negative</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Reasons for Choice</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>Author uses strong language (either positive or negative) to describe people or institutions of one side.</li>
+                                                            <li>Choice of sources and witnesses is one-sided (or not equal on both sides).</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Highlighted Text</td>
+                                                    <td>"You almost can’t blame Joe Biden for being so unhinged. It must be frustrating to debate when you have a record that is so hard to defend and not a single tangible plan for the second term besides tax hikes," a statement from the <span class = 'highlight'>Republican National Committee</span> said in drawing attention to notable tweets about Biden's <span class = 'highlight'>mirth</span>.
+
+Shortly afterward, the party put out a video montage of Biden <span class = 'highlight'>grinning</span> and laughing.
+
+Former <span class = 'highlight'>Bush spokesman</span> Ari Fleischer, for example, tweeted, "The contrast between cool Ryan and overbearing Biden really hurts Biden. Biden is too hot - not effective."
+
+"Twenty-nine days out and they have been peddling this crap, and they don't even have the guts to put their tax plan out. They deserve to be laughed at," <span class = 'highlight'>Maryland Gov. Martin O'Malley</span> said. "Biden knew the person he was up against is a very immature person who is not ready for this job." </td>
+                                                </tr>
+                                            </tbody>
+                                    </table> 
+                                </div>
+                            </div>
+                                
+                                <div class="col-12 col-sm-12">  
+                                    <button type="button" id="button_bad_ex" class="btn btn-danger btn-block">
+                                        <span class="collapse-bad-ex">Bad Example</span>
+                                    </button>
+                                   <div id="bad_ex1" style="width: 100%; display:none">
+                                    <p>
+                                    Remember that infamous Russian “dossier,” the unverified document that BuzzFeed unceremoniously dumped into the public square earlier this year? You might recall it as making a series of incredibly salacious and completely unproven accusations against the sitting president of the United States. Well, it turns out that it was a piece of partisan opposition research, bought and paid for by the Hillary Clinton campaign and the Democratic National Committee, both of which then denied having anything to do with it after the fact. </p>
+                                    <table class="table table-condensed table-striped table-responsive">
+                                            <tbody>
+                                            </tbody>
+                                            <colgroup>
+                                                <col class="col-12 col-md-3" />
+                                                <col class="col-12 col-md-9" />
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Question</td>
+                                                    <td>Answer</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Slant towards Republican Party</td>
+                                                    <td>Neutral</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Slant towards Deomcratic Party</td>
+                                                    <td>Strongly Positive</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Reasons for Choice</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>Other</li>
+                                                            <li>Its seems to fit the article.</li>
+                                                            <li>i didnt feel as there was any biased in this article.</li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Highlighted Text</td>
+                                                    <td><span class = 'highlight'>Remem</span>ber that infamous <span class = 'highlight'>Russian “dossier,” the unverified document that BuzzFeed unceremoniously dumped into the public square earlier this year? You might recall it as making a series of incredibly salacious and completely unproven accusations against the sitting president of the United States</span>. </td>
+                                                </tr>
+                                            </tbody>
+                                    </table>
+                                
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End instructions -->
+                
+                <!-- Categorization Layout -->
+                <div class="content row" id="article">
+                
+                  <div class="col-12 col-sm-8">  
+                    <h4 class="text-primary text-center bg-success mb-3">Article Snippets with Title</h4>
+                    <div class="well">
+                      <h4 class="text-primary text-center bg-primary mb-3 mark_text">${title}</h4>
+                      <strong>First Paragraph:</strong>
+                      <p class="mark_text" id="snippet1">${snippet1}</p>
+                      <strong>Second Paragraph:</strong>
+                      <p class="mark_text" id="snippet2">${snippet2}</p>
+                      <strong>Ending Paragraph:</strong>
+                      <p class="mark_text" id="snippet3">${snippet3}</p>
+                      <button type="button" id="button_full" class="btn btn-primary btn-block">
+                            <span class="collapse-full-text">Click to View Full Article</span>
+                      </button>
+                      <div id="fullDoc" style="width: 100%; display:none; height:250px; overflow-y: scroll;" class="mark_text">
+                          <p class="text-center">${title}</p>${fullDoc}
+                      </div>
+                    </div>
+                      
+                      <button type="button" id="button_right" class="btn btn-danger btn-block btn-sm">
+                            <span class="collapse-rep-belief-text">Click to View Republican Party Principles (if needed)</span>
+                      </button>
+                      <div id="conservative" style="width: 100%; display:none">
+                               <p>
+                               Articles with a slant towards Republican Party are most likely to show favor for:
+                              </p>
+                               <ul>
+                                   <li>Decreasing government spending, except for defense spending</li>
+                                   <li>Using military force</li>
+                                   <li>Decreasing taxes</li>
+                                   <li>Outlawing abortion</li>
+                                   <li>Rejection of entitlements and public funding for private needs (like healthcare)</li>
+                                   <li>Preserving the philosophy and rules enshrined in the U.S. Constitution</li>
+                                   <li>Preserving cultural norms, often as outlined in the Bible, through the use of state laws</li>
+                                   <li>Preserving the rights of gun owners</li>
+                                   <li>Balanced government budgets and fiscal conservatism</li>
+                                   <li>Aversion to rapid change; belief that tradition and prevailing norms were developed for a reason and contain wisdom that has been handed down</li>
+                              </ul>
+                     </div>
+                       
+                        <br>
+                        <button type="button" id="button_left" class="btn btn-info btn-block btn-sm">
+                            <span class="collapse-lib-belief-text">Click to View Democractic Party Principles (if needed)</span>
+                        </button>
+                       <div id="liberal" style="width: 100%; display:none">
+                           <p>
+                           Articles with a slant towards Democratic Party are most likely to show favor for:
+                           </p>
+                           <ul>
+                               <li>Government services (food stamps, social security, Medicare, student-loans, unemployment, etc)</li>
+                               <li>Federal laws protecting equal rights</li>
+                               <li>Tax increases on the wealthy</li>
+                               <li>Keeping abortion legal</li>
+                               <li>Decreasing military spending and intervention</li>
+                               <li>A belief that all humans have a right to healthcare, housing, clean water, a living wage</li>
+                               <li>Bans on hate speech, i.e., a belief that words can be violent</li>
+                               <li>A belief in “live and let live,”</li>
+                           </ul>
+                       </div>
+                    
+                  </div>
+                
+                    <div class="col-12 col-sm-4">
+                        
+                      <h6 class="btn-primary text-center mb-3" id='event_header'>Event the News is based On (Click to See)</h6>
+                        <div id="event" class="well" style="font-size: small; display:none;">${event}</div>
+                        
+                      <div class="form-group">
+                            <!-- Question for the Worker -->
+                            <label class="group-label">
+                            Q1: Is the snippet generally positive, neutral, or negative towards members or principles of the Republican party or the party itself?
+                            </label>
+                            <!-- Input from the Worker -->
+                            <div class="btn-group-vertical text-center" data-toggle="buttons" id="Input1">
+                                <label class="btn btn-default">
+                                <input id="rvpos1" name="q1" required="" type="radio" value="5" />Very Positive</label> 
+                                <label class="btn btn-default"> 
+                                <input id="rspos1" name="q1" required="" type="radio" value="2.5" />Somewhat Positive</label>          
+                                <label class="btn btn-default"> 
+                                <input id="rNeutral1" name="q1" required="" type="radio" value="0" />Neutral</label> 
+                                <label class="btn btn-default"> 
+                                <input id="rsneg1" name="q1" required="" type="radio" value="-2.5" />Somewhat Negative</label> 
+                                <label class="btn btn-default">
+                                <input id="rvneg1" name="q1" required="" type="radio" value="-5" />Very Negative</label>
+                            </div>
+                    </div>
+                  </div>
+                    
+                  <div class="col-12 col-sm-4">
+                      <div class="form-group">
+                            <!-- Question for the Worker -->
+                            <label class="group-label">
+                            Q2: Is the snippet generally positive, neutral, or negative towards members or principles of the Democratic party or the party itself?
+                            </label>
+                            <!-- Input from the Worker -->
+                            <div class="btn-group-vertical text-center" data-toggle="buttons" id="Input2">
+                                <label class="btn btn-default">
+                                <input id="dvpos2" name="q2" required="" type="radio" value="-5" />Very Positive</label> 
+                                <label class="btn btn-default"> 
+                                <input id="dspos2" name="q2" required="" type="radio" value="-2.5" />Somewhat Positive</label>          
+                                <label class="btn btn-default"> 
+                                <input id="dNeutral2" name="q2" required="" type="radio" value="0" />Neutral</label> 
+                                <label class="btn btn-default"> 
+                                <input id="dsneg2" name="q2" required="" type="radio" value="2.5" />Somewhat Negative</label> 
+                                <label class="btn btn-default">
+                                <input id="dvneg2" name="q2" required="" type="radio" value="5" />Very Negative</label>
+                            </div>
+                      </div>
+                  </div>
+                    
+                  <div class="col-12 col-sm-12">
+                    <div class="form-group">
+                      <label class="group-label">Q3: Why did you choose those ratings in Q1 and Q2?</label>
+                        <p>
+                        You can choose multiple reasons from the following options, or if the reason is not in the options, choose <strong>Other</strong> option and enter the reason in the textbox. <!-- <br> Highlight text in the title, snippets or full article, where the reason is reflected. -->
+                        </p>
+                        <p class="text-primary bg-warning mb-3"><!-- Highlight text in the title, snippets or in the full article, where you think the text is biased. --> Highlight text in the title, snippets or full article, where the reason is reflected.</p>
+                        <div class="btn-group-vertical text-center" data-toggle="buttons" id="Input3">
+                            <label for="one" class="btn btn-default">
+                              <input type="checkbox" id="one" name="reason[]" value="0">
+                                Author uses strong language (either positive or negative) to describe people or institutions of one side.</label>
+                            <label for="six" class="btn btn-default">
+                              <input type="checkbox" id="four" name="reason[]" value="5">
+                               Author expresses their own opinion to describe one side positively or negatively.</label>
+                            <label for="five" class="btn btn-default">
+                              <input type="checkbox" id="five" name="reason[]" value="4">
+                              Author presents <strong>principals</strong> of one political side too positively or too negatively in the news.</label>
+                            <label for="six" class="btn btn-default">
+                              <input type="checkbox" id="four" name="reason[]" value="3">
+                               One side of the story is ignored, marginalized or presented in vague terms, or exaggerated.</label>
+                            <label for="two" class="btn btn-default">
+                              <input type="checkbox" id="two" name="reason[]" value="1">
+                              Choice of sources and witnesses is one-sided (or not equal on both sides) or too general ("experts believe", "observers say").</label>
+                            <label for="three" class="btn btn-default">
+                              <input type="checkbox" id="three" name="reason[]" value="2">
+                              Author uses inaccurate/fabricated/incomplete information to support or oppose ideas or claims.</label>
+                            <label for="seven" class="btn btn-default">
+                              <input type="checkbox" id="seven" name="reason[]" value="6">
+                              The article didn't use any language that demonished or supported either side, and presented information impartially as just information.</label>
+                            
+                            <label for="other" class="btn btn-default">
+                              <input type="checkbox" id="other" name="reason[]" value="other">
+                              <strong>Other</strong> (Please specify in the textbox)</label>
+                        </div>
+                      </div>
+                      <input type="text" id="otherValue" name="other">
+                    </div>
+                    
+                </div>
+                <!-- old -->
+                    <input value='' type='hidden' id='marked' name='marked_text'/> <!-- type='hidden' -->
+                
+            </section>
+            <!-- End Categorization Layout -->
+            <!-- External JS references -->
+            <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.js"></script> <!-- highlight -->
+            <!-- Open internal javascript -->
+            <script>
+                //$("#snippet1").awesomeCursor('highlighter');
+                  
+                //https://html-online.com/articles/get-url-parameters-javascript/
+                function getUrlParam(parameter, defaultvalue){
+                  var urlparameter = defaultvalue;
+                  if(window.location.href.indexOf(parameter) > -1){
+                      urlparameter = getUrlVars()[parameter];
+                      }
+                  return urlparameter;
+                }
+                
+                function getUrlVars() {
+                  var vars = {};
+                  var parts = decodeURIComponent(window.location.href).replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                      vars[key] = value;
+                  });
+                  return vars;
+                }
+                
+                
+                  mouseXPosition = 0;
+                  markOptions = {
+                      element: "span",
+                      className: "highlight",
+                      caseSensitive: true,
+                      diacritics: false,
+                      separateWordSearch: false
+                  };
+                
+                
+                
+                $(document).ready(function() {
+                                       
+                    $('#event_header').click(function(){
+                        $('#event').toggle();
+                    });
+                    
+                    var buttongoodex1 = $('#button_good_ex1');
+                    var goodex1 = $('#good_ex1');
+                    buttongoodex1.click(function(){
+                        /*
+                        var isVisible = goodex1.is(':visible');
+                        if (isVisible) {
+                          $('.collapse-good-ex-1').text('Click to View Full Article');
+                        } else {
+                          $('.collapse-good-ex-1').text('Click to Hide Full Article');
+                        }
+                        */
+                        goodex1.toggle();
+                    });
+                    
+                    var buttongoodex2 = $('#button_good_ex2');
+                    var goodex2 = $('#good_ex2');
+                    buttongoodex2.click(function(){
+                        /*
+                        var isVisible = goodex2.is(':visible');
+                        if (isVisible) {
+                          $('.collapse-good-ex-2').text('Click to View Full Article');
+                        } else {
+                          $('.collapse-good-ex-2').text('Click to Hide Full Article');
+                        }
+                        */
+                        goodex2.toggle();
+                    });
+                    
+                    var buttonbadex = $('#button_bad_ex');
+                    var badex = $('#bad_ex1');
+                    buttonbadex.click(function(){
+                        /*
+                        var isVisible = badex.is(':visible');
+                        if (isVisible) {
+                          $('.collapse-bad-ex').text('Click to View Full Article');
+                        } else {
+                          $('.collapse-bad-ex').text('Click to Hide Full Article');
+                        }
+                        */
+                        badex.toggle();
+                    });
+                    
+                    var otherCheckbox = document.querySelector('input[value="other"]');
+                    var otherText = document.querySelector('input[id="otherValue"]');
+                    otherText.style.visibility = 'hidden';
+
+                    otherCheckbox.onchange = function() {
+                      if(otherCheckbox.checked) {
+                        otherText.style.visibility = 'visible';
+                        otherText.value = '';
+                      } else {
+                        otherText.style.visibility = 'hidden';
+                      }
+                    };
+                    
+                    $('#submitButton').click(function() {
+                      checked = $("input[type=checkbox]:checked").length;
+
+                      if(!checked) {
+                          //alert(document.getElementByName("q2").checked);
+                          //alert(document.getElementByName("q1").checked);
+                        alert("You must select at least one reason or specify others.");
+                        return false;
+                      }else{
+                          if(otherCheckbox.checked) {
+                              if(otherText.value == ''){
+                                  alert("You must specify a reason in the textbox if you have chosen other");
+                                  return false;
+                              }
+                          }
+                      }
+                    });
+                    
+                    var buttonfull = $('#button_full');
+                    var full = $('#fullDoc');
+                    buttonfull.click(function(){
+                        var isVisible = full.is(':visible');
+                        if (isVisible) {
+                          $('.collapse-full-text').text('Click to View Full Article');
+                        } else {
+                          $('.collapse-full-text').text('Click to Hide Full Article');
+                        }
+                        full.toggle();
+                    });
+                    
+                    var buttonleft = $('#button_left');
+                    var lib = $('#liberal');
+                    buttonleft.click(function(){
+                        var isVisible = lib.is(':visible');
+                        if (isVisible) {
+                          $('.collapse-lib-belief-text').text('Click to View Democractic Party Principles');
+                        } else {
+                          $('.collapse-lib-belief-text').text('Click to Hide Democractic Party Principles');
+                        }
+                        lib.toggle();
+                    });
+                    
+                    var buttonright = $('#button_right');
+                    var rep = $('#conservative');
+                    buttonright.click(function(){
+                        var isVisible = rep.is(':visible');
+                        if (isVisible) {
+                          $('.collapse-rep-belief-text').text('Click to View Republican Party Principles');
+                        } else {
+                          $('.collapse-rep-belief-text').text('Click to Hide Republican Party Principles');
+                        }
+                        rep.toggle();
+                    });
+                    
+                  // Instructions expand/collapse
+                  var content = $('#instructionBody');
+                  var trigger = $('#collapseTrigger');
+                  content.hide();
+                  $('.collapse-text').text('(Click to expand)');
+                  trigger.click(function() {
+                    content.toggle();
+                    var isVisible = content.is(':visible');
+                    if (isVisible) {
+                      $('.collapse-text').text('(Click to collapse)');
+                    } else {
+                      $('.collapse-text').text('(Click to expand)');
+                    }
+                  });
+                  // end expand/collapse
+                
+                  // highlight selected category
+                  var input1 = $("#Input1 input:radio");
+                  input1.change(function() {
+                    input1.parent().removeClass("btn-success");
+                    input1.parent().addClass("btn-default");
+                    if ($(this).is(":checked")) {
+                      $(this).parent().removeClass("btn-default");
+                      $(this).parent().addClass("btn-success");
+                    } else {
+                      $(this).parent().removeClass("btn-success");
+                      $(this).parent().addClass("btn-default");
+                    }
+                  });
+                  // end highlight
+                    
+                  // highlight selected category for news type
+                  var input2 = $("#Input2 input:radio");
+                  input2.change(function() {
+                    input2.parent().removeClass("btn-success");
+                    input2.parent().addClass("btn-default");
+                    if ($(this).is(":checked")) {
+                      $(this).parent().removeClass("btn-default");
+                      $(this).parent().addClass("btn-success");
+                    } else {
+                      $(this).parent().removeClass("btn-success");
+                      $(this).parent().addClass("btn-default");
+                    }
+                  });
+                  // end highlight
+                    
+                  // highlight selected category for news type
+                  var input3 = $("#Input3 input:checkbox");
+                  input3.change(function() {
+                    //input3.parent().removeClass("btn-success");
+                    //input3.parent().addClass("btn-default");
+                    if ($(this).is(":checked")) {
+                      $(this).parent().removeClass("btn-default");
+                      $(this).parent().addClass("btn-success");
+                    } else {
+                      $(this).parent().removeClass("btn-success");
+                      $(this).parent().addClass("btn-default");
+                    }
+                  });
+                  // end highlight
+                    
+                  $(".mark_text").mousedown(function (e) {
+                      mouseXPosition = e.pageX;
+                  });
+                
+                  $(".mark_text").mouseup(function (e2) {
+                      var highlighted = false;
+                      var selection = window.getSelection();
+                      var selectedText = selection.toString();
+                      var startPoint = window.getSelection().getRangeAt(0).startOffset;
+                      var endPoint = window.getSelection().getRangeAt(0).endOffset;
+                      var anchorTag = selection.anchorNode.parentNode;
+                      var focusTag = selection.focusNode.parentNode;
+                      if ((e2.pageX - mouseXPosition) < 0) {
+                          focusTag = selection.anchorNode.parentNode;
+                          anchorTag = selection.focusNode.parentNode;
+                      }
+                      if (selectedText.length === (endPoint - startPoint)) {
+                          highlighted = true;
+                
+                          if (anchorTag.className !== "highlight") {
+                              highlightSelection();
+                          } else {
+                              var afterText = selectedText + "<span class = 'highlight'>" + anchorTag.innerHTML.substr(endPoint) + "</span>";
+                              anchorTag.innerHTML = anchorTag.innerHTML.substr(0, startPoint);
+                              anchorTag.insertAdjacentHTML('afterend', afterText);
+                          }
+                
+                      } else {
+                          if (anchorTag.className !== "highlight" && focusTag.className !== "highlight") {
+                              highlightSelection();
+                              highlighted = true;
+                          }
+                      }
+                
+                
+                      if (anchorTag.className === "highlight" && focusTag.className === 'highlight' && !highlighted) {
+                          highlighted = true;
+                
+                          var afterHtml = anchorTag.innerHTML.substr(startPoint);
+                          var outerHtml = selectedText.substr(afterHtml.length, selectedText.length - endPoint - afterHtml.length);
+                          var anchorInnerhtml = anchorTag.innerHTML.substr(0, startPoint);
+                          var focusInnerHtml = focusTag.innerHTML.substr(endPoint);
+                          var focusBeforeHtml = focusTag.innerHTML.substr(0, endPoint);
+                          selection.deleteFromDocument();
+                          anchorTag.innerHTML = anchorInnerhtml;
+                          focusTag.innerHTml = focusInnerHtml;
+                          var anchorafterHtml = afterHtml + outerHtml + focusBeforeHtml;
+                          anchorTag.insertAdjacentHTML('afterend', anchorafterHtml);
+                
+                
+                      }
+                
+                      if (anchorTag.className === "highlight" && !highlighted) {
+                          highlighted = true;
+                          var Innerhtml = anchorTag.innerHTML.substr(0, startPoint);
+                          var afterHtml = anchorTag.innerHTML.substr(startPoint);
+                          var outerHtml = selectedText.substr(afterHtml.length, selectedText.length);
+                          selection.deleteFromDocument();
+                          anchorTag.innerHTML = Innerhtml;
+                          anchorTag.insertAdjacentHTML('afterend', afterHtml + outerHtml);
+                      }
+                
+                      if (focusTag.className === 'highlight' && !highlighted) {
+                          highlighted = true;
+                          var beforeHtml = focusTag.innerHTML.substr(0, endPoint);
+                          var outerHtml = selectedText.substr(0, selectedText.length - beforeHtml.length);
+                          selection.deleteFromDocument();
+                          focusTag.innerHTml = focusTag.innerHTML.substr(endPoint);
+                          outerHtml += beforeHtml;
+                          focusTag.insertAdjacentHTML('beforebegin', outerHtml);
+                
+                
+                      }
+                      if (!highlighted) {
+                          highlightSelection();
+                      }
+                      $('.highlight').each(function () {
+                          if ($(this).html() == '') {
+                              $(this).remove();
+                          }
+                      });
+                      selection.removeAllRanges();
+                  });
+                    
+                });
+                  
+                var mySet = new Set();
+                function highlightSelection() {
+                  var selection;
+                
+                  if (window.getSelection) {
+                      selection = window.getSelection()
+                  } else if (typeof document.selection != "undefined") {
+                      selection = document.selection;
+                  }
+                    
+                  //alert(selection.toString());
+                
+                  var range = selection.getRangeAt(0);
+                
+                  document.getElementById("marked").value += selection.toString()+"<marker>";
+                    
+                  if (range && !selection.isCollapsed) {
+                      if (selection.anchorNode.parentNode == selection.focusNode.parentNode) {
+                          var n = $(selection.anchorNode.parentNode);
+                          n.mark(selection.toString(), markOptions);
+                      }
+                  }
+                }
+                
+            </script>
+            <!-- Close internal javascript -->
+            <p class="text-center"><input type="submit" id="submitButton" class="btn btn-primary" value="Submit" /></p>
+        </form>
+        <script language="Javascript">turkSetAssignmentID();</script>
+    </body>
+</html>
