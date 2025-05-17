@@ -27,13 +27,14 @@ We selected **only those documents** where **two independent crowd annotators ag
 
 ---
 
-### 📁 `sample-docs-from-conflicted-labels-workerVSsourceLabel/`  
+### `sample-docs-from-conflicted-labels-workerVSsourceLabel/`  
 - **Contents**:  
   - Hand-picked examples from disagreement/conflict cases  
   - Additional `.txt` files showing the breakdown of annotator behavior  
 - **Purpose**: Useful for qualitative inspection and error analysis. Not part of main gold set, but valuable for interpretation or annotation refinement.
 
 ---
+### `HIT_inputs/` – [Inputs used in MTurk HIT creation](./HIT_inputs/README.md), including all 900 curated documents and evaluation samples.
 
 ## Format
 
