@@ -1,4 +1,5 @@
 # raw_selection_of_issues_events_articles+create_MTurk_HIT_input+outlet_bias_label_mapping.ipynb (previously Untitled1.ipynb)
+(Not adding in git repo, but individual *.py files are added)
 
 1. Found all the issues in the full data (article_metadata.xml) i.e., abortion, criminal justice
 2. Found all the events in the full data (article_metadata.xml) - each issue may have multiple events
