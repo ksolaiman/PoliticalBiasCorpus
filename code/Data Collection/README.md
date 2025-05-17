@@ -1,0 +1,1 @@
+These scripts were used to crawl, organize, and extract political news articles based on event timelines. Event metadata and article content were stored in SQLite databases for downstream use.
