@@ -1,0 +1,11 @@
+You have a total of 10,601 articles distributed by outlet bias as follows:
+
+- Center: 4,237 articles
+
+- Lean Left: 2,713 articles
+
+- Lean Right: 1,840 articles
+
+- Left: 1,325 articles
+
+- Right: 486 articles
