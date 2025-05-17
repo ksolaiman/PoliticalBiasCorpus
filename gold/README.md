@@ -35,6 +35,9 @@ We selected **only those documents** where **two independent crowd annotators ag
 
 ---
 ### `HIT_inputs/` – [Inputs used in MTurk HIT creation](./HIT_inputs/README.md), including all 900 curated documents and evaluation samples.
+---
+### `outlet_derived_labels/` – [partisan labels for the news articles](./outlet_derived_labels/README.md), including proxy labels from news source/outlet for the 300 given to MTurkers and for all 900 curated documents.
+---
 
 ## Format
 
