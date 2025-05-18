@@ -32,6 +32,18 @@ These were used during annotation and validation as a reasoning aid - not to enf
 
 This folder contains results from a Mechanical Turk annotation task where 300 political news articles were each labeled by two workers for perceived political bias.
 
+## pilot-phase/
+Includes:
+- Mturk annotations for 16-docs-by-5 separate workers
+  - Highlighted bias markers (lines that indicate bias) in the articles
+  - inputs and annotation results from this task
+  - ran from `../code/mturk_annotation/MTurk.ipynb`
+- post-mturk-result-observation-by-2-expert
+  - Early conflicted-label examples
+- pilot phase observation notes from the 2nd step
+- Improvements made in HIT design for final annotation (found in observation notes)
+
+
 ### Files
 
 - `mturk_annotation_raw.csv`: Raw annotations with no postprocessing or interpretation. Each document appears twice, once per annotator. Includes document ID, article snippets, full text, annotator highlights, reason, and scalar Left/Right bias ratings.
