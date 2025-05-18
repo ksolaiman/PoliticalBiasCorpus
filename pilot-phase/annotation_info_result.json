@@ -1,0 +1,1096 @@
+{
+  "6795228e-895e-4cbb-b635-755585d0532d": {
+    "title": "Donald Trump’s RNC address could mark the start of an American revival",
+    "snippet1": "Donald Trump needed to give the speech of his life. He did that, and much more. He laid out an inspiring American Manifesto for our troubled times.",
+    "snippet2": "Not surprisingly, from start to finish, it is muscular and bold, leavened only by appeals to racial harmony and pledges of compassion for all. It offers a prominent nod to Bernie Sanders’ supporters in a bid to get some to jump the Democratic ship.",
+    "snippet3": "If he wins, and can deliver on his vision, remember this speech. Like Ronald Reagan’s in 1976, Trump’s 2016 address could mark the start of a desperately needed American revival. As he said near the end, “America is back.” Imagine that — and pray he is right.",
+    "docid": "6795228e-895e-4cbb-b635-755585d0532d",
+    "annotation_results": [
+      {
+        "WorkerId": "A2N8FYNKM133KF",
+        "TimeSpent": 132.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": "I feel as if he did not bash one side. He praised trump but didnt bash democrats",
+        "verdict": "Tagged a completely right one as center, reasoning seems off"
+      },
+      {
+        "WorkerId": "A3FAH5S2RGZ5AK",
+        "TimeSpent": 250.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "Based on the information provided. I felt that was the best option.",
+        "verdict": "No marker, not good enough reasoning, tagged complete opposite"
+      },
+      {
+        "WorkerId": "A0017268R9SKD8U2Y3F",
+        "TimeSpent": 259.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": [
+          "it is muscular and bold",
+          "racial harmony and pledges of compassion for all",
+          "As he said near the end, “America is back.”",
+          "give the speech of his life. He did that, and much more.",
+          "laid out an inspiring",
+          "delivered a stemwinder",
+          "Democrats, who are recklessly becoming the anti-police party.",
+          "INVALID"
+        ],
+        "reason": "Uses emotional appeal. Sheds him in a very positive light.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "ABQM9FJ6AXPCO",
+        "TimeSpent": 333.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": [
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": "Its seems to fit the article.",
+        "verdict": "useless markers, useless reason, tagged correct"
+      },
+      {
+        "WorkerId": "A2GSIQYXC3SFMI",
+        "TimeSpent": 91.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": null,
+        "reason": null,
+        "verdict": "no m/r, tagged correct"
+      }
+    ],
+    "mturk_majority_label": "Right",
+    "news-source-bias": "Right",
+    "label_by_us": "Right"
+  },
+  "213ead6e-c603-4048-b22a-7f2b3626c6a7": {
+    "title": "Trump claims GOP nomination, tells struggling Americans 'I am your voice'",
+    "snippet1": "Just over a year after Donald J. Trump descended his iconic escalator in Manhattan to announce he was joining a packed field of political veterans seeking the Republican nomination for president, the New York billionaire completed an astonishing and historic political ascent Thursday night in Cleveland, officially claiming his party’s nomination — and declaring to struggling Americans, “I am your voice.”",
+    "snippet2": "Trump electrified the convention crowd on closing night, with chants of “U.S.A.” frequently breaking out as the nominee vowed to put “America first.” He used the speech to align his campaign squarely on the side of struggling American workers of all political stripes, as he moved to broaden his appeal beyond the Republican base that largely decided the primaries.",
+    "snippet3": "“For more than a year, Donald Trump has been the people’s champion, and tonight he is the people’s nominee,” she said. “… When my father says he’ll make America great again, he will deliver.”",
+    "docid": "213ead6e-c603-4048-b22a-7f2b3626c6a7",
+    "annotation_results": [
+      {
+        "WorkerId": "A100Y4C73CCD92",
+        "TimeSpent": 65.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "I chose Bias because this whole article is for Trump. It doesn't contain facts, it only contains positive things about him. About how he is going to make America great again.",
+        "verdict": "Reason was correct, but political perspective is wrong, chose complete opposite"
+      },
+      {
+        "WorkerId": "A3SXV3VD8DJ0YX",
+        "TimeSpent": 34.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It only says good things about Trump.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 351.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "Useless"
+      },
+      {
+        "WorkerId": "A1WMOJNU4FFQY8",
+        "TimeSpent": 160.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "endorsing Donald Trump for president",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A20JUJNMK3TP5D",
+        "TimeSpent": 84.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": [
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": "all good",
+        "verdict": "No marker, reasoning not good, correct label"
+      }
+    ],
+    "mturk_majority_label": "Right",
+    "news-source-bias": "Lean Right",
+    "label_by_us": "Right"
+  },
+  "f72587c6-820c-48d5-851e-d9e0d0e16ba1": {
+    "title": "Was Trump's speech the longest ever?",
+    "snippet1": "Donald Trump formally accepted the Republican Party's presidential nomination at the Republican National Convention in Cleveland.",
+    "snippet2": "Donald Trump is making acceptance speeches great again. Or at least LONG again.",
+    "snippet3": "From 1956 - 2012, Bill Clinton's 1996 convention speech was the longest: pic.twitter.com/cO05tfjn0g — National Journal (@nationaljournal) July 21, 2016",
+    "docid": "f72587c6-820c-48d5-851e-d9e0d0e16ba1",
+    "annotation_results": [
+      {
+        "WorkerId": "A1ZDR2UN7M92LI",
+        "TimeSpent": 41.0,
+        "bias": "Center",
+        "newstype": 3,
+        "markers": null,
+        "reason": "It simply states the length of Trumps speech. Nothing for or against him.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "AOS2PVHT2HYTL",
+        "TimeSpent": 447.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "I think the article is just telling the public that Trump made a long acceptance speech.  It's not biased either way to me.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 314.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "Useless"
+      },
+      {
+        "WorkerId": "A0017268R9SKD8U2Y3F",
+        "TimeSpent": 976.0,
+        "bias": "Center",
+        "newstype": 3,
+        "markers": null,
+        "reason": null,
+        "verdict": "Label correct, no reason/marker"
+      },
+      {
+        "WorkerId": "A3P57IUDHUKNCE",
+        "TimeSpent": 91.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "seem to lean that way",
+        "verdict": "Everything wrong/useless"
+      }
+    ],
+    "mturk_majority_label": "Center",
+    "news-source-bias": "Center",
+    "label_by_us": "Center"
+  },
+  "5e3181fe-c06f-4ddf-9145-8c2f309748c0": {
+    "title": "Donald Trump doesn’t want to make America great. He wants to make it afraid.",
+    "snippet1": "Donald Trump is not a candidate the American people would turn to in normal times. He’s too inexperienced, too eccentric, too volatile, too risky. Voting Trump is burning down the house to collect the insurance money — you don’t do it unless things are really, really bad.",
+    "snippet2": "Here is Trump’s problem: Things are not really, really bad. In fact, things are doing much better than when President Obama came into office.",
+    "snippet3": "But then, perhaps there’s truth to his absurd promises: When the crisis is invented, the solution is simpler. Once Trump no longer needs the nation to be afraid, he will stop scaring it. It is his nightmare, and only he can wake us from it.",
+    "docid": "5e3181fe-c06f-4ddf-9145-8c2f309748c0",
+    "annotation_results": [
+      {
+        "WorkerId": "A239JNU2N6RC4U",
+        "TimeSpent": 173.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "Seems to be left biased because it is not great about trump, although it does point out some good things. The overall slant is \"Trump is bad.\"",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A2PKA1OBYUJOFE",
+        "TimeSpent": 80.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "Because it makes comments of us doing better than when Obama was in office.",
+        "verdict": "political knowledge not good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 64.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": [
+          "INVALID",
+          "2010",
+          "INVALID",
+          "beautiful",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "altar",
+          "INVALID",
+          "INVALID",
+          "Root",
+          "INVALID",
+          "mothers",
+          "INVALID",
+          "h",
+          "Perhaps",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "family",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "sacrifice",
+          "INVALID",
+          "INVALID",
+          "majority",
+          "INVALID"
+        ],
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "AOS2PVHT2HYTL",
+        "TimeSpent": 887.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": [
+          "Donald Trump doesn’t want to make America great. He wants to make it afraid.",
+          "He’s too inexperienced, too eccentric, too volatile, too risky. Voting Trump is burning down the house to collect the insurance money — you don’t do it unless things are really, really bad.",
+          "Once Trump no longer needs the nation to be afraid, he will stop scaring it. It is his nightmare, and only he can wake us from it.",
+          "He needs to make Americans afraid again.",
+          "this was Trump’s \"Nightmare in America\" speech.",
+          "to persuade Americans that their country is a dangerous, besieged hellscape, and only Donald Trump can fix it.",
+          "Trump had neither answers for nor interest in their deaths. And it is when you tug on these threads that Trump’s speech unspools and its grossness, and uselessness, becomes clear.",
+          "But Trump wasn’t interested in making Americans safer, and so he did not mention any of these policies. He was interested in making Americans more afraid, and so he focused on the dangers that scare us, as opposed to the ones that truly threaten us.",
+          "Trump isn’t worried about your safety. He is worried about his own electoral prospects. And this is what made Trump’s speech so truly ugly.",
+          "But it is fully another to try to scare the shit out of Americans because you’re afraid they won’t vote for you unless they’re terrified. It is demagogic to warn, on national television, of foreign criminals \"roaming\" our streets simply because you’re behind in the polls.",
+          "Here, his statement bordered on self-parody.",
+          "But then, perhaps there’s truth to his absurd promises: When the crisis is invented, the solution is simpler. Once Trump no longer needs the nation to be afraid, he will stop scaring it. It is his nightmare, and only he can wake us from it.",
+          "INVALID"
+        ],
+        "reason": "The whole article is left biased!!!!!  The writer obviously can't stand Trump!!!!!!",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "AGHKGWDYPVDFE",
+        "TimeSpent": 726.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": "I think this opinion piece is pretty neutral with only a slight left bias. Trump's own words are used for analysis. Facts were injected into the article to corroborate the aforementioned analysis.",
+        "verdict": "reasoning is good, but seems pretty liberal with a hard left article"
+      }
+    ],
+    "mturk_majority_label": "Left",
+    "news-source-bias": "Lean Left",
+    "label_by_us": "Left"
+  },
+  "9b6c83cc-f7cd-48ce-aecf-9d83048fc033": {
+    "title": "Emails reveal Hillary’s shocking pay-for-play scheme",
+    "snippet1": "Hillary Clinton put the State Department up for sale, with top aides pulling strings and doing favors for fat-cat donors to the Clinton Foundation — including a shady billionaire, according to smoking-gun emails released Tuesday.",
+    "snippet2": "The stunning revelations include how wealthy contributors seeking influence or prestigious government gigs could fork over piles of cash to get access to Clinton’s inner circle, including top aides Huma Abedin and Cheryl Mills.",
+    "snippet3": "“They are communications between her aides and the president’s personal aide, and indeed the recommendation was for one of the secretary’s former staffers who was not employed by the foundation,” he added.",
+    "docid": "9b6c83cc-f7cd-48ce-aecf-9d83048fc033",
+    "annotation_results": [
+      {
+        "WorkerId": "ATWAJESPOXKOF",
+        "TimeSpent": 182.0,
+        "bias": "Left",
+        "newstype": 3,
+        "markers": null,
+        "reason": "the new looks bias from its  title of the articles.",
+        "verdict": "weak reasons. no markers"
+      },
+      {
+        "WorkerId": "APF1EAZT104LQ",
+        "TimeSpent": 42.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "did not seem to lean either way",
+        "verdict": "weak reasons. no markers, wrong label"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 369.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "AKSJ3C5O3V9RB",
+        "TimeSpent": 678.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": [
+          "up for sale",
+          "fat-cat donors to the Clinton Foundation",
+          "shady billionair",
+          "smoking-gun emails",
+          "smoking-gun emails",
+          "m",
+          "smoking",
+          "INVALID",
+          "smoking",
+          "smoking-gun e",
+          "could fork over piles of cash to get access",
+          "shocking pay-for-play",
+          "INVALID"
+        ],
+        "reason": "It's sensational to say the least and starkly devoid of substantial facts to back up these heavy accusations/claims.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A0017268R9SKD8U2Y3F",
+        "TimeSpent": 957.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": [
+          "shocking",
+          "Hillary Clinton put the State Department up for sale",
+          "pulling strings and doing favors for fat-cat donors",
+          "shady",
+          "smoking-gun emails",
+          "She views public office as nothing more than a means to personal enrichment.” “No wonder Hillary Clinton and Huma Abedin hid emails from the American people, the courts and Congress,”",
+          "INVALID"
+        ],
+        "reason": "I think some of the words they use are manipulative.",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Right",
+    "news-source-bias": "Right",
+    "label_by_us": "Right"
+  },
+  "96a3d71b-81f4-44ae-a8d2-064be42bc3cd": {
+    "title": "Newly released emails raise questions about relationship between State Department and Clinton Foundation",
+    "snippet1": "Democratic presidential nominee Hillary Clinton. The conservative watchdog group Judicial Watch on Tuesday released an additional 296 pages of emails from Hillary Clinton, including 44 that it said were not previously disclosed to the State Department by the former secretary of state.",
+    "snippet2": "Among the emails were some that raised questions about the relationship between the Clinton Foundation and the State Department.",
+    "snippet3": "\"Neither of these emails involve the secretary or relate to the Foundation's work,\" Josh Schwerin, a Clinton campaign spokesman, said in an emailed statement to CNN. \"They are communications between her aides and the president's personal aide, and indeed the recommendation was for one of the secretary's former staffers who was not employed by the Foundation.\"",
+    "docid": "96a3d71b-81f4-44ae-a8d2-064be42bc3cd",
+    "annotation_results": [
+      {
+        "WorkerId": "A3SXV3VD8DJ0YX",
+        "TimeSpent": 45.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": [
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": "It puts Clinton and the Democratic party in only a negative light. Does not say anything about the Right's involvement.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A2BAZB0K6BTZI3",
+        "TimeSpent": 234.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "The article didn't use any language that demonished or supported either side, and presented information impartially as just information.",
+        "verdict": "invalid reasoning, wrong label"
+      },
+      {
+        "WorkerId": "A0017268R9SKD8U2Y3F",
+        "TimeSpent": 415.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m, uselss, wrong label"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 392.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A1C6NTK19FBQO0",
+        "TimeSpent": 154.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m"
+      }
+    ],
+    "mturk_majority_label": "Right",
+    "news-source-bias": "Center",
+    "label_by_us": "Not Rated"
+  },
+  "6e2ec9f5-eb67-4422-84d8-3d68b1a50220": {
+    "title": "From Whitewater to Benghazi: A Clinton-Scandal Primer",
+    "snippet1": "Oops, never mind! That’s FBI Director James Comey’s new message to Congress and, by extension, the American public on Sunday. A little over a week ago, Comey shook the presidential election with a letter to the chairs of several congressional committees, announcing that the FBI had found a new tranche of emails pertinent to its investigation into Hillary Clinton’s use of a private email server while secretary of state. The emails came from an unrelated case, he said—since widely reported to be an investigation into alleged sexts to a teenager from Anthony Weiner, whose estranged wife is a top Clinton aide—and there was no timeline for finishing the review. The revelation gave new life to the struggling Donald Trump campaign, which seized on the matter as proof of Clinton’s bad judgment. Her poll numbers, as well as her favorability figures and Democratic enthusiasm, sagged. New leaks began dripping out of the FBI on a daily basis, along with allegations that the bureau was trying to tip the election toward Trump. The Clinton campaign demanded that Comey say more, but no information was forthcoming.",
+    "snippet2": "But in a new letter on Sunday, Comey revealed that FBI agents had been working “around the clock” to look at the emails. “During that process, we reviewed all of the communications that were to or from Hillary Clinton while she was Secretary of State,” Comey wrote. “Based on our review, we have not changed our conclusions that we expressed in July with respect to Secretary Clinton.” In other words, it was all much ado about nothing. Comey’s recommended in July was that although Clinton had been “extremely careless” with classified information, there was no grounds for charging her with a crime. Put more bluntly, the FBI altered the course of the presidential campaign for what amounts to a fire drill. This doesn’t mean the email story is gone entirely. On Friday, a new release showed that in at least one case Clinton forwarded emails to her daughter, Chelsea Clinton, that the government now labels classified. The chain in question was released on November 4, as part of the ongoing release of Clinton’s emails from her time as secretary of state. The messages appeared to be related to climate talks in Copenhagen in December 2009, although they were redacted so that it is impossible to tell. They were sent to an email address that Chelsea Clinton used under an alias, “Diane Reynolds.” It was not marked classified at the time. The emails and the private server through which they operated have been a defining story of the Clinton campaign. In March 2015, The New York Times first reported on Clinton’s use of a private email address and a private server during her time at Foggy Bottom. The story has dogged Clinton ever since, raising questions about her judgment and trustworthiness.",
+    "snippet3": "Who? Both Cheryl Mills and Huma Abedin are among Clinton’s longest-serving and closest aides. Abedin remains involved in her campaign (and she’s also married to Anthony Weiner). When? January 2009-February 2013 How serious is it? This is arcane stuff, to be sure. There are questions about conflict of interest—such as whether Teneo clients might have benefited from special treatment by the State Department while Abedin worked for both. To a great extent, this is just an extension of the tangle of conflicts presented by the Clinton Foundation and the many overlapping roles of Bill and Hillary Clinton. Sidney Blumenthal What? A former journalist, Blumenthal was a top aide in the second term of the Bill Clinton administration and helped on messaging during the bad old days. He served as an adviser to Hillary Clinton’s 2008 presidential campaign, and when she took over the State Department, she sought to hire Blumenthal. Obama aides, apparently still smarting over his role in attacks on candidate Obama, refused the request, so Clinton just sought out his counsel informally. At the same time, Blumenthal was drawing a check from the Clinton Foundation.",
+    "docid": "6e2ec9f5-eb67-4422-84d8-3d68b1a50220",
+    "annotation_results": [
+      {
+        "WorkerId": "A1KXESMB9K7504",
+        "TimeSpent": 133.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": "I don't see any preference chosen.",
+        "verdict": "not sure"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 402.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A250FES5PFCGK9",
+        "TimeSpent": 176.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": null,
+        "reason": "assertion of fbi partisanship",
+        "verdict": "good reasoning, not sure about label, maybe all good"
+      },
+      {
+        "WorkerId": "A2S6R7K7UKD7CO",
+        "TimeSpent": 375.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "The title leaned right biased by presupposing the validity of multiple manufactured Clinton scandals.  But the snippets and closing all provided objective information and facts without interjecting opinion or conclusion regarding the evaluation of those facts.  What conclusions were drawn were logically reached from widely available verifiable information.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A3JQ2LIT3E4TA2",
+        "TimeSpent": 56.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It lays out the facts and isn't especially partisan.",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Center",
+    "news-source-bias": "Lean Left",
+    "label_by_us": "Left"
+  },
+  "fa5f4d8e-5789-4a46-8ddc-4eaebf1c7aca": {
+    "title": "Trump warns North Korea will be \"met with fire and fury\"",
+    "snippet1": "President Trump addressed the ongoing crisis between the U.S. and North Korea at a briefing on opioids in New Jersey on Tuesday, issuing a stern warning to the regime for its continued provocations.",
+    "snippet2": "\"North Korea best not make any more threats to the United States,\" warned Mr. Trump from his golf club in Bedminster.",
+    "snippet3": "The U.S. in May successfully carried out its first-ever missile defense test to intercept an ICBM-type weapon, but other tests have had mixed results.",
+    "docid": "fa5f4d8e-5789-4a46-8ddc-4eaebf1c7aca",
+    "annotation_results": [
+      {
+        "WorkerId": "ACDGDXKF3TACM",
+        "TimeSpent": 13.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m"
+      },
+      {
+        "WorkerId": "A2JIFMN6FU5N0T",
+        "TimeSpent": 193.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": [
+          "more threats to the United States,\" warned Mr. Trump from his golf club in Bedminster.\r\r\"They will be met with fire and",
+          "INVALID"
+        ],
+        "reason": "While not your normaly leftist biased article, it still had hints of it.  Polls are a good indicator, because if you take sampling in a more liberal area of the country you will get more poeple against Trump.  And thats the case with this article.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A791P32K1NPMU",
+        "TimeSpent": 317.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "The article does not show any preference to any party",
+        "verdict": "maybe good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 207.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": [
+          "INVALID",
+          "percent",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "provocations. \"North Korea",
+          "INVALID",
+          "INVALID",
+          "North Korea best not make any more threats to the United States",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "North Korea best not make any more threats to the United States,",
+          "INVALID",
+          "States",
+          "INVALID",
+          "not",
+          "INVALID",
+          "INVALID",
+          "Bedminster",
+          "INVALID",
+          "INVALID",
+          "e",
+          "regime",
+          "INVALID",
+          "ccessfully carried out its first",
+          "North Korea best not make any more threats to the United Statet",
+          "INVALID"
+        ],
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A3RN5GD583FY4K",
+        "TimeSpent": 124.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": [
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": "i chose right biased because it seemed to paint President Trump and his actions in a positive light",
+        "verdict": "Good"
+      }
+    ],
+    "mturk_majority_label": "Left",
+    "news-source-bias": "Lean Left",
+    "label_by_us": "Left"
+  },
+  "d0e5ed0e-e166-4eae-86f4-144c812eeed4": {
+    "title": "North Korea Can Put a Nuclear Weapon on a Missile, Officials Believe",
+    "snippet1": "WASHINGTON — U.S. intelligence agencies have made an assessment that North Korea has constructed a nuclear weapon small enough to fit on a missile, according to a U.S. official briefed on the assessment.",
+    "snippet2": "The U.S. belief that North Korea has reached this milestone was first reported by The Washington Post, which said that the assessment came from a Defense Intelligence Agency analysis completed last month.",
+    "snippet3": "The official said, however, that this does not mean that North Korea has fielded a nuclear-tipped intercontinental ballistic missile. The North Koreans still have to establish that they can deliver a weapon accurately that survives reentry.",
+    "docid": "d0e5ed0e-e166-4eae-86f4-144c812eeed4",
+    "annotation_results": [
+      {
+        "WorkerId": "A2TCOV49RNTECD",
+        "TimeSpent": 92.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It wasn't leaning to the left or the right. It was just stating a fact regarding North Korea and their nuclear weapons.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 362.0,
+        "bias": "Right",
+        "newstype": 3,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A1VBZWAHLWQMXM",
+        "TimeSpent": 217.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "There is no instance of any mention of left or right-winged ideology.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A3H3EOO4F0WKAD",
+        "TimeSpent": 41.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": [
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": "It just states what people say",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A39ILEWD3ZMWWZ",
+        "TimeSpent": 69.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "They did not focus on any subjective statements. They just delivered the news straight.",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Center",
+    "news-source-bias": "Lean Left",
+    "label_by_us": "Center"
+  },
+  "7e9742ef-5cf4-4790-bba1-c633f5be2156": {
+    "title": "Trump Warns North Korea of ‘Fire and Fury Like the World Has Never Seen’",
+    "snippet1": "Speaking at his golf club in Bedminster, N.J., President Trump warned today, “North Korea best not make any more threats to the United States. They will be met with fire and fury like the world has never seen.”",
+    "snippet2": "The statement comes in a series of escalating threats and provocative moves by North Korea’s regime. The Washington Post is reporting that U.S. intelligence officials assess that North Korea has successfully produced a miniaturized nuclear warhead that can fit inside its missiles. Japan’s defense minister said “security threats have entered a new stage.” Yesterday, North Korea said it would use its nuclear weapons only against the United States, and said it would “under no circumstances” negotiate on its nuclear and missile weapons programs. Also yesterday, Fox News reported that U.S. spy agencies detected the North Korean military “loading two anti-ship cruise missiles on a patrol boat on the country’s east coast just days ago,” suggesting another missile test may be on the way. Late last month, North Korea test-fired a missile that could hit much of the continental United States.",
+    "snippet3": "Unless China suddenly applies a great deal more pressure to Pyongyang, either this president or the next will face a devastating choice among bad options: accept a nuclear-armed North Korea that can strike American cities, fight a conventional war before those ballistic missiles are operational, or fight a nuclear war somewhere down the road.",
+    "docid": "7e9742ef-5cf4-4790-bba1-c633f5be2156",
+    "annotation_results": [
+      {
+        "WorkerId": "A75S9YDCW16I7",
+        "TimeSpent": 150.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It simply states facts and doesn't seem to give any direct opinions from the writer.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A31A4YKVSOYRVS",
+        "TimeSpent": 83.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": [
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": "It doesn't mention anything about whether or not either side is good or bad",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A0017268R9SKD8U2Y3F",
+        "TimeSpent": 965.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m"
+      },
+      {
+        "WorkerId": "A30Z3KW1LP9ZEK",
+        "TimeSpent": 96.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It seemed factual and without opinion.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A14FPZMC9ENX8E",
+        "TimeSpent": 78.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": "i didnt feel as there was any biased in this article",
+        "verdict": "Good"
+      }
+    ],
+    "mturk_majority_label": "Center",
+    "news-source-bias": "Right",
+    "label_by_us": "Right"
+  },
+  "71269911-e445-4eee-8c88-5b11130167af": {
+    "title": "Ten inconsistencies in Donald Trump's big foreign policy address",
+    "snippet1": "For a speech purporting to challenge Washington’s accepted wisdom, there was much that was familiar about Donald Trump’s first big foreign policy address, not least the customary certainty of its delivery.",
+    "snippet2": "A call to challenge radical Islam through “philosophical struggle” as well as military force might even have come from the lips of Barack Obama. Certainly no mainstream Republican would ever disagree with the somewhat motherhood-and-apple-pie exhortation for US presidents to view the world “through the clear lens of American interests”.",
+    "snippet3": "It is perhaps unfair, however, to dwell too closely on textual analysis of a speech clearly written by a number of people. “We will no longer surrender this country or its people to the false song of globalism” is a powerful line, but it does not sound very much like it was written by the same man who told a rally in Pennsylvania on Monday: “Do I look like a president? How handsome am I?”",
+    "docid": "71269911-e445-4eee-8c88-5b11130167af",
+    "annotation_results": [
+      {
+        "WorkerId": "ACDGDXKF3TACM",
+        "TimeSpent": 19.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m, correct label"
+      },
+      {
+        "WorkerId": "ASP32QB28TEZU",
+        "TimeSpent": 386.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": [
+          "INVALID",
+          "inconsistencies",
+          "INVALID"
+        ],
+        "reason": "I don't believe a right biased person would have talked about Trump's inconsistencies or brought up the subject of rally in Pennsylvania.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A30QJ6OLAICVI7",
+        "TimeSpent": 99.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "Seems critical in a way characteristic of the left.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 373.0,
+        "bias": "Left",
+        "newstype": 3,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A1MKCTVKE7J0ZP",
+        "TimeSpent": 174.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "This is clearly left-biased by the title alone, which is critical of the president. Unfortunately, in our present political climate, it is exceedingly rare for anything that critiques the president to be right-biased.",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Left",
+    "news-source-bias": "Lean Left",
+    "label_by_us": "Left"
+  },
+  "3c4e3ad5-61f9-4c3b-868f-d3ec0dbc74c7": {
+    "title": "Trump fails to impress foreign-policy experts",
+    "snippet1": "In his address to an elite, invitation-only Washington foreign policy audience Wednesday, Donald Trump promised that, as president, he would restore a “coherent” vision to America’s role in the world.",
+    "snippet2": "But across the ideological spectrum, and even among natural allies, Trump’s speech received a failing grade for coherence and drew snickering and scorn from foreign policy insiders who remain unconvinced that Trump is up to the job.",
+    "snippet3": "“Ronald Reagan must be rolling over in his grave,” Graham tweeted.",
+    "docid": "3c4e3ad5-61f9-4c3b-868f-d3ec0dbc74c7",
+    "annotation_results": [
+      {
+        "WorkerId": "A1B5CFHF9QFSZ8",
+        "TimeSpent": 95.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It is a report on reaction to a speech.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A3UV55HC87DO9C",
+        "TimeSpent": 369.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It seemed slightly negative towards trump and his choices. It mentioned negativity about Trump's decision.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 357.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A1E8WU0ER9WT88",
+        "TimeSpent": 520.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "It is overly critical about the subject and the article is way too aggressive.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A12CMVEJJEPGI",
+        "TimeSpent": 717.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": [
+          "elite, invitation-only Washington foreign policy audience",
+          "foreign policy insiders who remain unconvinced that Trump is up to the job",
+          "fails to impress",
+          "elite, invitation-only Washington foreign policy audience",
+          "foreign policy insiders who remain unconvinced that Trump is up to the job",
+          "Trump offered few specifics about his strategy",
+          "intellectual journal not often spotted on Trump’s private jet",
+          "little concern for missions like promoting democracy or overthrowing repressive regimes",
+          "views of elites matter less than the populist sound bites",
+          "Manhattan mogul",
+          "INVALID",
+          "derisive",
+          "INVALID"
+        ],
+        "reason": "The title isn't directly about the speech. Calling the audience \"elite\" and \"invitation-only\" is irrelevant unless you're trying to reinforce (admittedly true) class stereotypes about Individual 1, as does calling him a \"Manhattan mogul\". And the potshots at realist foreign policy were, however much you might agree with them, completely gratuitous.",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Left",
+    "news-source-bias": "Center",
+    "label_by_us": "Lean Left"
+  },
+  "668c47ca-f35a-4075-b4b5-30cfc870a7e5": {
+    "title": "It’s what was left unsaid in Trump’s speech that matters most",
+    "snippet1": "What was important about Donald Trump’s much anticipated foreign policy speech Wednesday is what he didn’t say. There was no mention by the self-declared Republican Party’s presumptive presidential nominee of his determination to build a wall between Mexico and the United States and get the Mexican government to pay for it.",
+    "snippet2": "There was only a passing reference to his frequent criticism of illegal immigrants, the theme that helped launch his presidential campaign last summer.",
+    "snippet3": "That was not only vintage Trump, but a precursor of what lies ahead if Mr. Trump, indeed, wins the nomination.",
+    "docid": "668c47ca-f35a-4075-b4b5-30cfc870a7e5",
+    "annotation_results": [
+      {
+        "WorkerId": "A1ZDR2UN7M92LI",
+        "TimeSpent": 79.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": "It doesn't talk bad about Trump, simply states some facts and let's the reader decide.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A2T11H7YI7QPGD",
+        "TimeSpent": 164.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": null,
+        "reason": "Pointed out a lot of shortcoming of right politicians.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A1MKCTVKE7J0ZP",
+        "TimeSpent": 294.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": "I read the full article to better frame the snippets, however I feel that the title alone is telling enough as there is a subtle implication that Trump is being subversive. All-in-all, I found the article to be only slightly left-leaning, though in this political climate it is very hard to find something that can't be construed as biased.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A35DFRLY43TPXH",
+        "TimeSpent": 487.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": [
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": "Paris Dennard, previously suspended over sexual harassment allegations, says he was targeted because he’s a black, Trump-supporting Republican. A pro-Trump CNN commentator has cut ties with the cable news network and accused it of bias and “fake news",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "APHNYDGTCRN3O",
+        "TimeSpent": 172.0,
+        "bias": "Left",
+        "newstype": 2,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m"
+      }
+    ],
+    "mturk_majority_label": "Left",
+    "news-source-bias": "Lean Right",
+    "label_by_us": "Right"
+  },
+  "4036ab43-daf0-4209-83b0-969969cdbdf2": {
+    "title": "The Cuban Embargo Is One of the Least Effective Foreign Policy Initiatives in U.S. History",
+    "snippet1": "In what one longtime Cuba watcher is calling “the biggest day for U.S.-Cuban relations in 50 years,” the two governments announced a prisoner exchange today that removes some of the largest impediments to full diplomatic relations between the longtime adversaries. Both President Obama and Cuban President Raúl Castro are due to make statements later today, and according to ABC News, “The White House is indicating the beginning of new talks on everything from travel restrictions to eventual lifting of the Cuban embargo in place since John F. Kennedy was president.”",
+    "snippet2": "Alan Gross, an American who was arrested and charged with “acts against the independence and territorial integrity of the state” in 2009 while attempting to deliver communications equipment to religious groups on the island as a subcontractor for USAID, has been released and is now en route back to the U.S. Gross was reportedly in poor health, and Obama had suggested earlier this month that his release would “remove an impediment to more constructive relations.”",
+    "snippet3": "(Update, 12:38 p.m. The measures announced by the White House on Wednesday include many of the steps mentioned above, including more travel licenses, allowing the export of goods to private Cuban enterprises, and the sale of communications equipment and authorizing U.S. credit and debit card use by U.S. travelers to Cuba. The State Department will also be reviewing Cuba’s state terrorism designation. More dramatically, the U.S. is re-establishing an embassy in Havana in the next few months and beginning talks on restoring full diplomatic relations. This was a lot faster and more sweeping than expected.)",
+    "docid": "4036ab43-daf0-4209-83b0-969969cdbdf2",
+    "annotation_results": [
+      {
+        "WorkerId": "A15VI0QFR2YO50",
+        "TimeSpent": 191.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m"
+      },
+      {
+        "WorkerId": "A2XE89KFI1DRPQ",
+        "TimeSpent": 424.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": null,
+        "reason": "Pretty much any article of this type is going to be right biased.",
+        "verdict": "not a good reason"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 414.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A0017268R9SKD8U2Y3F",
+        "TimeSpent": 851.0,
+        "bias": "Center",
+        "newstype": 2,
+        "markers": null,
+        "reason": null,
+        "verdict": "no r/m"
+      },
+      {
+        "WorkerId": "A1HGAHZSM14YTV",
+        "TimeSpent": 201.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": null,
+        "reason": "It seem favorable toward Obama who is democrat, so assuming its left biased",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Center",
+    "news-source-bias": "Lean Left",
+    "label_by_us": "Left"
+  },
+  "c81f6e2f-607c-44a1-8499-e5b636799542": {
+    "title": "Obama Acts on Cuba",
+    "snippet1": "Here are four names, long forgotten, that should be noted today: Armando Alejandre, Carlos Costa, Pablo Morales, and Mario de la Peña. They were three U.S. citizens and one permanent resident. They were pilots with Brothers to the Rescue, the outfit that looks for Cuban refugees, as they are stranded or desperate on the sea.",
+    "snippet2": "On February 24, 1996, the four pilots were shot out of the sky by the Cuban dictatorship’s forces. The planes were in international airspace at the time. The Castro government killed the men simply because they were trying to help innocent Cubans.",
+    "snippet3": "The Cuban government is not legitimate, and never has been. It is a one-party dictatorship with a gulag, an archipelago of prisons into which democrats and dissidents are thrown. We hope that the new American policy — Obama’s policy — does not benefit the Cuban dictatorship and harm Cuban democrats. We fear that yesterday was a good day for the Castros and a bad day for the Cuban people, and for American foreign policy.",
+    "docid": "c81f6e2f-607c-44a1-8499-e5b636799542",
+    "annotation_results": [
+      {
+        "WorkerId": "A31A4YKVSOYRVS",
+        "TimeSpent": 89.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "They are speaking negatively about Obama's policies.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 42.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": [
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "desperate",
+          "INVALID",
+          "policy",
+          "INVALID",
+          "INVALID",
+          "has",
+          "INVALID",
+          "INVALID",
+          "INVALID",
+          "INVALID"
+        ],
+        "reason": null,
+        "verdict": "no r/m"
+      },
+      {
+        "WorkerId": "A2E3TO92MCQ9XU",
+        "TimeSpent": 95.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "It's very typical of news I expect to see on right-leaning sites.",
+        "verdict": "not good reason"
+      },
+      {
+        "WorkerId": "A1WKF2VH7TV0H2",
+        "TimeSpent": 87.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "It has conservative views and offers opinions on policies.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A1MKCTVKE7J0ZP",
+        "TimeSpent": 227.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "The first couple of snippets were more informational than biased, but the ending statement made it pretty clear that the author is against the new relationship between Cuba and the US. While it is entirely possible that the writer could be left-leaning, it's more likely that they are right-leaning, as it was primarily, though not entirely, Republicans that were against rebuilding the relationship with Cuba.",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Right",
+    "news-source-bias": "Right",
+    "label_by_us": "Right"
+  },
+  "e6dab88a-754e-4f31-9b4e-61e8d9afdf30": {
+    "title": "Obamacare Customers Face Big Price Hikes Next Year",
+    "snippet1": "WASHINGTON ― The rate hikes are coming. Eight days before the beginning of a crucial enrollment season for the Affordable Care Act’s health insurance exchange marketplaces, federal officials announced Monday how much prices are going up.",
+    "snippet2": "The gist: a lot. But like everything Obamacare, it’s not that simple. The law’s financial assistance will protect millions of lower-income families from these premium increases, and others can find relief by switching to different plans next year to save money. There will be losers, however, mostly among higher-income households that find can’t avoid the premium increases and are forced to either pay more or go without health insurance.",
+    "snippet3": "But high sticker prices, especially for those who receive small subsidies or none at all, threaten to discourage people who need the coverage the least: those healthy individuals that insurers covet because they pay in and seldom draw down. If these exchanges can’t find the right balance between costs and revenues, insurers will be less willing to sell policies on them, and customers will be less willing to buy that coverage, which would undermine the system for everyone using it.",
+    "docid": "e6dab88a-754e-4f31-9b4e-61e8d9afdf30",
+    "annotation_results": [
+      {
+        "WorkerId": "AUHUCLVZGLMYO",
+        "TimeSpent": 134.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "The article seems to paint obamacare as complicated and negative for high-income families.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A24OTDA26N8VFJ",
+        "TimeSpent": 408.0,
+        "bias": "Right",
+        "newstype": 1,
+        "markers": null,
+        "reason": "North Korea best not make any more threats to the United Statet",
+        "verdict": "useless"
+      },
+      {
+        "WorkerId": "A0017268R9SKD8U2Y3F",
+        "TimeSpent": 837.0,
+        "bias": "Left",
+        "newstype": 1,
+        "markers": [
+          "crucial enrollment season",
+          "There will be losers",
+          "threaten to discourage people",
+          "INVALID"
+        ],
+        "reason": "The words they use are ones that convey emotional appeals, I believe.",
+        "verdict": "Not sure"
+      },
+      {
+        "WorkerId": "A39ILEWD3ZMWWZ",
+        "TimeSpent": 92.0,
+        "bias": "Right",
+        "newstype": 2,
+        "markers": null,
+        "reason": "They focused more on the negatives of Obamacare than the positives.",
+        "verdict": "All good"
+      },
+      {
+        "WorkerId": "A30MV0KUL3NC1",
+        "TimeSpent": 788.0,
+        "bias": "Center",
+        "newstype": 1,
+        "markers": null,
+        "reason": "I think it's not biased because it's explaining the situation from many different groups' point of view---the poor and the higher income individuals.",
+        "verdict": "All good"
+      }
+    ],
+    "mturk_majority_label": "Right",
+    "news-source-bias": "Left",
+    "label_by_us": "Center"
+  },
+  "5db3534f-3c38-4bba-aedf-337a0019e128": {
+    "title": "Republicans blast ObamaCare after premium hike announcement",
+    "snippet1": "Republicans blasted the White House on Monday after President Obama’s administration announced premiums for his signature health care law will rise sharply next year and many consumers would be down to just one insurer.",
+    "snippet2": "Republican presidential nominee Donald Trump, while campaigning in Tampa, Fla., emphatically declared ObamaCare “over.”",
+    "snippet3": "Enrollment has been lower than initially projected, and insurers say patients turned out to be sicker than expected. Moreover, a complex internal system to help stabilize premiums has not worked as hoped for."
+  }
+}
