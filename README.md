@@ -70,6 +70,7 @@ To support consistent annotations and bias evaluation, we include reference mate
 <!-- These references informed interpretation but were not prescriptive. -->
 These were used during annotation and validation as a reasoning aid - not to enforce any labeling decision. Annotators may have referred to them to calibrate or justify their selections.
 
+---
 
 ## pilot-phase/
 
