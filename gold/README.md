@@ -9,7 +9,8 @@ We selected **only those documents** where **two independent crowd annotators ag
 
 ### `gold_docs_workers_agreed_and_matched_outlet.csv`
 - **Count**: 144 articles  
-- **Description**: Articles where both annotators agreed on the bias label (55 articles), or one selected Center and the other selected partisan (89 articles). In the later case, we choose the partisan label as final human label. The final human label matches the known political leaning of the news outlet.
+- **Description**: Articles where both annotators agreed on the bias label and the final label matches the known political leaning of the news outlet.
+Total 144 includes 55 documents where both annotators chose the same partisan label, and 89 documents where one chose `Center' and the other chose a partisan label — we adopted the partisan label as final.
 - **Use**: High-confidence training and evaluation set for bias detection. 
 - **Human-label**: `L`, `R` (left, right)
 
@@ -21,7 +22,7 @@ We selected **only those documents** where **two independent crowd annotators ag
 
 ### `gold_docs_workers_agreed_conflicted_with_outlet.csv`
 - **Count**: 54 articles 
-- **Description**: Articles where both annotators agreed on the bias label (12 articles), or one selected Center and the other selected partisan (42 articles). In the later case, we choose the partisan label as final human label. The final human label **conflicts** with the outlet’s known political leaning.
+- **Description**: Articles where human label **conflicts** with the outlet’s known political leaning. Includes articles where both annotators agreed on the bias label (12 articles), or one selected `Center' and the other selected partisan (42 articles). In the later case, we choose the partisan label as final human label. 
 - **Use**: Potentially valuable for identifying **atypical framing** or misalignment between perception and source bias.
 - **Human-label**: `L`, `R` (disagreeing with `outlet_bias`)
 
