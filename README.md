@@ -108,6 +108,10 @@ If using this dataset, please cite:
 ```
 
 ---
+### License
+
+This dataset and code are released under the [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
+You are free to use and adapt the materials for non-commercial academic purposes with attribution.
 
 `Developed at H.A.R.M.O.N.I. Lab, UMBC`
 
