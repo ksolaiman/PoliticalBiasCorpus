@@ -1,5 +1,7 @@
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC--BY--NC--SA-blue)
 [![arXiv](https://img.shields.io/badge/arXiv-2505.16081-b31b1b.svg)](https://arxiv.org/abs/2505.16081)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15571668.svg)](https://doi.org/10.5281/zenodo.15571668)
+
 
 
 # BiasLab: Political Bias Annotation Corpus
@@ -96,6 +98,8 @@ Before the final annotation, we conducted a 16-article pilot. Includes:
 
 If using this dataset, please cite:
 
+### Paper
+
 ```bibtex
 @misc{solaiman2025biaslab,
       title={BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Annotations and Rationale Indicators}, 
@@ -107,6 +111,11 @@ If using this dataset, please cite:
       url={https://arxiv.org/abs/2505.16081}, 
 }
 ```
+
+#### Dataset and Code (Zenodo)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15571668.svg)](https://doi.org/10.5281/zenodo.15571668)
+Use this DOI when citing the dataset or code in your work.
+
 
 ---
 ### License
