@@ -1,3 +1,7 @@
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC--BY--NC--SA-blue)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.16081-b31b1b.svg)](https://arxiv.org/abs/2505.16081)
+
+
 # BiasLab: Political Bias Annotation Corpus
 
 This repository contains a structured political bias dataset annotated via crowd-sourced judgments. Articles are drawn from ideologically labeled media outlets, and annotation is designed to capture sentiment toward political parties, identify bias markers, and evaluate human alignment with known outlet bias.
@@ -16,12 +20,13 @@ Input article files used to generate HITs (Human Intelligence Tasks) for MTurk. 
 
 - `docs/`
   Article metadata, reference principles, selection logs, and statistical summaries. Includes curated lists of events, issues, and source labels.
+
 - `code/`  
   Scripts and notebooks used to generate HIT inputs, process MTurk annotations, evaluate agreement, and compute dataset-level statistics. Subfolders include:
   - `mturk_automation/`: Qualification test creation and HIT submission logic
   - `preprocessing/`: Scripts for computing agreement, distribution, and confusion matrices
   - `Data Collection/`: Web scraping and article curation utilities
-  - `modeling/`: models for prediction and classification tasks
+  - `modeling/`: Logistic regression baselines for bias perception alignment and rationale prediction
 
 - `pilot-phase/`  
   MTurk annotation results for 16 articles rated by 5 annotators each. Used to refine annotation protocols and develop justification-based bias detection.
@@ -31,8 +36,6 @@ Input article files used to generate HITs (Human Intelligence Tasks) for MTurk. 
 
 - `mturk_metadata/`  
   Metadata logs from MTurk pipeline, including worker qualification tracking and ID history.
-
----
 
 
 ## MTurk Annotation Summary
@@ -93,17 +96,24 @@ Before the final annotation, we conducted a 16-article pilot. Includes:
 If using this dataset, please cite:
 
 ```bibtex
-@misc{biaslab2024,
-  author = {Solaiman, KMA},
-  title = {BiasLab: Constructing and Evaluating a Political News Bias Dataset via Crowd-Sourced Annotation},
-  year = {2024},
-  note = {Preprint},
-  howpublished = {\url{https://ksolaiman.github.io}}
+@misc{solaiman2025biaslab,
+      title={BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Annotations and Rationale Indicators}, 
+      author={KMA Solaiman},
+      year={2025},
+      eprint={2505.16081},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.16081}, 
 }
 ```
 
 ---
 
+`Developed at H.A.R.M.O.N.I. Lab, UMBC`
+
+---
+
 For questions or contributions, contact:
 📧 ksolaima@umbc.edu
+
 🔗 https://ksolaiman.github.io
