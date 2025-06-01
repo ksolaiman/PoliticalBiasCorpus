@@ -35,7 +35,8 @@ and ran them with current directory structure in git repo.
 - create_list_of_docids_of_disagreement_and_high_agreement_from_MTurk_tagged_annotations.py
 - evaluate-worker-vs-outlet-label-from-gold-csvs.py
 
-### Modeling Tasks
+
+## Modeling Tasks
 
 - modeling/
 - Contains logistic regression baselines for two supervised tasks:
