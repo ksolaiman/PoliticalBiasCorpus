@@ -1,0 +1,33 @@
+
+=== Classification Report for label_directional ===
+              precision    recall  f1-score   support
+
+           0       0.69      0.94      0.79        80
+           1       0.55      0.15      0.24        40
+
+    accuracy                           0.68       120
+   macro avg       0.62      0.54      0.51       120
+weighted avg       0.64      0.68      0.61       120
+
+
+=== Classification Report for label_structural ===
+              precision    recall  f1-score   support
+
+           0       0.67      0.89      0.76        76
+           1       0.56      0.23      0.32        44
+
+    accuracy                           0.65       120
+   macro avg       0.61      0.56      0.54       120
+weighted avg       0.63      0.65      0.60       120
+
+
+=== Classification Report for label_neutral_other ===
+              precision    recall  f1-score   support
+
+           0       0.58      0.92      0.71        59
+           1       0.81      0.36      0.50        61
+
+    accuracy                           0.63       120
+   macro avg       0.70      0.64      0.61       120
+weighted avg       0.70      0.63      0.60       120
+
