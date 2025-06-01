@@ -21,6 +21,7 @@ Input article files used to generate HITs (Human Intelligence Tasks) for MTurk. 
   - `mturk_automation/`: Qualification test creation and HIT submission logic
   - `preprocessing/`: Scripts for computing agreement, distribution, and confusion matrices
   - `Data Collection/`: Web scraping and article curation utilities
+  - `modeling/`: models for prediction and classification tasks
 
 - `pilot-phase/`  
   MTurk annotation results for 16 articles rated by 5 annotators each. Used to refine annotation protocols and develop justification-based bias detection.
