@@ -6,6 +6,7 @@
 
 This repository contains a structured political bias dataset annotated via crowd-sourced judgments. Articles are drawn from ideologically labeled media outlets, and annotation is designed to capture sentiment toward political parties, identify bias markers, and evaluate human alignment with known outlet bias.
 
+---
 
 ## Repository Structure
 
