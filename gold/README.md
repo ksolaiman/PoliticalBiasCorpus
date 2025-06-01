@@ -26,6 +26,13 @@ Total 144 includes 55 documents where both annotators chose the same partisan la
 - **Use**: Potentially valuable for identifying **atypical framing** or misalignment between perception and source bias.
 - **Human-label**: `L`, `R` (disagreeing with `outlet_bias`)
 
+
+### `gold_openai_annotations_all_batches_1_30.csv`
+  - **Count**: 300 articles 
+  - **Description**: Schema-constrained GPT-4o labels across all 300 articles  
+  - **Use**: Comparison with human labels, LLM alignment benchmarking  
+  - **Format aligned with human annotation files**
+
 ---
 
 ### `sample-docs-from-conflicted-labels-workerVSsourceLabel/`  
@@ -59,13 +66,14 @@ Each CSV contains the following columns:
 - Articles where one annotator **selected 'Center'** were 131/300.
 - Only documents with **two valid annotations** and agreement were included.
 - All annotations were conducted using a custom MTurk interface with pre-qualified workers.
+- OpenAI labels were generated using the **same constrained schema** as MTurk annotation task
 
 
 ---
 
 ## Licensing
 
-You may use this dataset for **non-commercial academic purposes**, with proper citation. If you build upon this work, please reference our upcoming paper and this repository.
+You may use this dataset for **non-commercial academic purposes**, with proper citation. If you build upon this work, please reference our paper and this repository.
 
 ---
 
