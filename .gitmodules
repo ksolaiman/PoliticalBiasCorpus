@@ -1,0 +1,3 @@
+[submodule "docs/PoliticalBiasCorpusPrivateDocs"]
+	path = docs/PoliticalBiasCorpusPrivateDocs
+	url = git@github.com:ksolaiman/PoliticalBiasCorpusPrivateDocs.git
