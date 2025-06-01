@@ -40,10 +40,10 @@ and ran them with current directory structure in git repo.
 - modeling/
 - Contains logistic regression baselines for two supervised tasks:
 
-- **`perception_source_match_logreg.py`**  
+  - **`perception_source_match_logreg.py`**  
   Classifies whether annotator-perceived bias aligns with the outlet's known ideology ("perception drift" detection).
 
-- **`reason_type_multilabel_logreg.py`**  
+  - **`reason_type_multilabel_logreg.py`**  
   Predicts which rationale types (e.g., omission, framing) annotators selected to justify their bias ratings (multi-label classification).
 
 These provide simple, interpretable baselines using TF-IDF features.
