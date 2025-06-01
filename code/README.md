@@ -28,11 +28,25 @@ and ran them with current directory structure in git repo.
 - mturk_automation/
     - MTurk.ipynb — bulk HIT generation, task formatting, and submission logic
     - MTurk_Qualification_Test.ipynb — task qualification questions and examples
+    - openai-annotate.py - has the code to annotate through openai prompts
 
 
 ## Processing the MTurk Response
 - create_list_of_docids_of_disagreement_and_high_agreement_from_MTurk_tagged_annotations.py
 - evaluate-worker-vs-outlet-label-from-gold-csvs.py
+
+### Modeling Tasks
+
+- modeling/
+- Contains logistic regression baselines for two supervised tasks:
+
+- **`perception_source_match_logreg.py`**  
+  Classifies whether annotator-perceived bias aligns with the outlet's known ideology ("perception drift" detection).
+
+- **`reason_type_multilabel_logreg.py`**  
+  Predicts which rationale types (e.g., omission, framing) annotators selected to justify their bias ratings (multi-label classification).
+
+These provide simple, interpretable baselines using TF-IDF features.
 
 
 ## Stat Calculation of the Dataset
