@@ -101,7 +101,7 @@ If using this dataset, please cite:
 ### Paper
 
 ```bibtex
-@misc{solaiman2025biaslab,
+@article{solaiman2025biaslab,
       title={BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Annotations and Rationale Indicators}, 
       author={KMA Solaiman},
       year={2025},
@@ -109,6 +109,7 @@ If using this dataset, please cite:
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2505.16081}, 
+      booktitle={2nd Workshop on Models of Human Feedback for AI Alignment (MoFA) at ICML}
 }
 ```
 
