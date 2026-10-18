@@ -64,3 +64,23 @@ These provide simple, interpretable baselines using TF-IDF features.
 - sourceurl_scrap.py — scrape raw article URLs from known sources
 - NewsArticleExtractor.py — extract and format article content
 - helper_functions.py — shared utilities for metadata extraction
+
+## Credential setup
+
+The MTurk notebooks use Boto3's default credential provider chain. Configure
+AWS credentials outside the repository through environment variables
+(`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` for
+temporary credentials), or use a shared AWS profile in `~/.aws/credentials`
+and select it with `AWS_PROFILE`. The notebooks retain their existing region
+and production/sandbox settings. Restart the notebook kernel after changing
+its environment.
+
+Set `OPENAI_API_KEY` in the environment before running
+`mturk_automation/openai-annotate.py`. The script fails with a clear error if
+it is missing or blank. Supply credentials through your shell or a secret
+manager; do not put credential values in scripts, notebooks, or outputs.
+
+Local `.env`, `.env.*`, and `.aws/` paths are ignored by Git, while
+`.env.example` remains trackable and should contain placeholders only.
+These scripts do not automatically load `.env` files; export the variables
+into the process environment yourself.

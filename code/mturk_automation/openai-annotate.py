@@ -3,9 +3,10 @@ import csv
 import time
 import openai
 
-# Make sure your API key is set:
-# export OPENAI_API_KEY="sk-…"
-openai.api_key = "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"
+# Read credentials from the environment.
+openai.api_key = os.environ.get("OPENAI_API_KEY")
+if not openai.api_key or not openai.api_key.strip():
+    raise RuntimeError("OPENAI_API_KEY is required; set it in the environment before running annotation.")
 
 INPUT_CSV  = "../../gold/HIT_inputs/mturk_input_300.csv"
 OUTPUT_CSV = "mturk_input_300_annotated.csv"

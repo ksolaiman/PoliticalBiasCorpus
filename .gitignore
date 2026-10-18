@@ -5,3 +5,9 @@ mturk_task_templates/old*
 *alias
 code/modeling/non-paper-codes-or-failure-models/
 code/modeling/results/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.aws/
