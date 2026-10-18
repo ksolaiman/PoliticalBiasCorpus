@@ -79,8 +79,3 @@ Set `OPENAI_API_KEY` in the environment before running
 `mturk_automation/openai-annotate.py`. The script fails with a clear error if
 it is missing or blank. Supply credentials through your shell or a secret
 manager; do not put credential values in scripts, notebooks, or outputs.
-
-Local `.env`, `.env.*`, and `.aws/` paths are ignored by Git, while
-`.env.example` remains trackable and should contain placeholders only.
-These scripts do not automatically load `.env` files; export the variables
-into the process environment yourself.
